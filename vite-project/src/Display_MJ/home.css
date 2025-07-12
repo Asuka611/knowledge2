@@ -1,0 +1,99 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e0e0e0;
+    padding: 10px 20px;
+}
+
+.page-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.search-bar {
+    padding: 5px;
+    font-size: 16px;
+    width: 200px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: calc(100vh - 60px);
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar button {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.main-content {
+    flex: 1;
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    background-color: #ffffff;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 1;
+    min-width: 300px;
+}
+
+.knowledge-box {
+    background-color: #e0f7fa;
+    width: 110%;
+    padding: 60px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.search-section ul {
+    list-style: none;
+    padding: 0px 0px 0px 300px;
+    width: 300px;
+    
+}
+
+.search-section li {
+    background-color: #f9f9f9;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.pagination {
+    position: fixed;
+    bottom: 0;
+    left: 240px;
+    right: 0;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+}
