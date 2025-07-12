@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>ナレッジ詳細ページ</title>
+    <link rel="stylesheet" href="viewReport.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <button onclick="location.href='http://127.0.0.1:5500/home.html'">HOME</button>
+            <button>作成</button>
+            <button>ブックマーク</button>
+            <button>タグ</button>
+        </aside>
+        <main class="main-content">
+            <section class="knowledge-section">
+                <div class="knowledge-box">
+                    <h2>Knowledge</h2>
+                    <p>ここにナレッジの内容が表示されます。</p>
+                </div>
+                <button class="save-button" onclick="location.href='http://127.0.0.1:5500/myPage.html'">保存</button>
+            </section>
+            <aside class="interaction-section">
+                <div class="comments">
+                    <h3>コメント一覧</h3>
+                    <div class="comment">コメント1</div>
+                    <div class="comment">コメント2</div>
+                    <textarea class="comment-input" placeholder="コメントを入力してください"></textarea>
+                </div>
+                <div class="question">
+                    <h3>質問</h3>
+                    <textarea class="question-input" placeholder="質問を入力してください"></textarea>
+                </div>
+            </aside>
+        </main>
+    </div>
+</body>
+</html>
