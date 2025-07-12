@@ -21,7 +21,7 @@ body {
 .search-bar {
     padding: 5px;
     font-size: 16px;
-    width: 200px;
+    width: 600px;
 }
 
 .container {
@@ -61,8 +61,8 @@ body {
 
 .knowledge-box {
     background-color: #e0f7fa;
-    width: 110%;
-    padding: 60px;
+    width: 120%;
+    padding:  60px;
     margin-bottom: 20px;
     border-radius: 5px;
     font-size: 20px;
@@ -71,8 +71,8 @@ body {
 
 .search-section ul {
     list-style: none;
-    padding: 0px 0px 0px 300px;
-    width: 300px;
+    padding: 0px 0px 0px 55%;
+    width: 270px;
     
 }
 
@@ -94,6 +94,6 @@ body {
 }
 
 .pagination button {
-    margin: 0 5px;
+    margin: 0 15px;
     padding: 5px 10px;
 }
