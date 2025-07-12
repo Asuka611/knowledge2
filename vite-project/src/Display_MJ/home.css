@@ -59,7 +59,7 @@ body {
     min-width: 300px;
 }
 
-.knowledge-box {
+/* .knowledge-box {
     background-color: #e0f7fa;
     width: 120%;
     padding:  60px;
@@ -67,7 +67,23 @@ body {
     border-radius: 5px;
     font-size: 20px;
     text-align: center;
+} */
+
+.knowledge-box {
+background-color: #e0f7fa;
+width: 120%;
+padding: 60px;
+margin-bottom: 20px;
+border-radius: 5px;
+font-size: 20px;
+text-align: center;
+text-decoration: none; /* リンクの下線を消す */
+color: inherit; /* リンクの文字色を継承 */
+display: block;/* ブロック要素として表示 */
 }
+
+
+
 
 .search-section ul {
     list-style: none;
@@ -97,3 +113,6 @@ body {
     margin: 0 15px;
     padding: 5px 10px;
 }
+
+
+
