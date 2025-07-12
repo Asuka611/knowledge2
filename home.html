@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>ナレッジ共有ツール - Home</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header class="header">
+        <div class="page-title">Home</div>
+        <input type="text" class="search-bar" placeholder="検索...">
+    </header>
+    <div class="container">
+        <aside class="sidebar">
+            <button>マイページ</button>
+            <button>作成</button>
+            <button>ブックマーク</button>
+            <button>タグ</button>
+        </aside>
+        <main class="main-content">
+            <section class="column new-posts">
+                <label for="sort-select">表示順:</label>
+                <select id="sort-select">
+                    <option value="new">新着順</option>
+                    <option value="popular">人気順</option>
+                    <option value="comments">コメント順</option>
+                </select>
+                <div class="knowledge-box">Knowledge</div>
+                <div class="knowledge-box">Knowledge</div>
+                <div class="knowledge-box">Knowledge</div>
+                <div class="knowledge-box">Knowledge</div>
+            </section>
+            <section class="column search-section">
+                <ul>
+                    <li>検索項目1</li>
+                    <li>検索項目2</li>
+                    <li>検索項目3</li>
+                </ul>
+            </section>
+        </main>
+        <footer class="pagination">
+            <button>&lt;</button>
+            <span>1</span>
+            <button>&gt;</button>
+        </footer>
+    </div>
+</body>
+</html>
