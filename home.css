@@ -61,6 +61,7 @@ body {
 
 .knowledge-box {
     background-color: #e0f7fa;
+    width: 110%;
     padding: 60px;
     margin-bottom: 20px;
     border-radius: 5px;
